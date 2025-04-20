@@ -1,0 +1,21 @@
+{
+    "code": "stonedurabilitymod:stone",
+    "class": "Block",
+    "entityclass": "stonedurabilitymod.StoneBlock",
+    "variantgroups": [],
+    "creativeinventory": { "general": [ "*" ] },
+    "textures": {
+        "all": { "base": "block/granite1" }
+    },
+    "behaviors": [
+        {
+            "name": "StoneDurabilityMod.DurabilityController",
+            "properties": {
+                "maxDurability": 100
+            }
+        }
+    ],
+    "blockentitybehaviors": [
+        { "name": "StoneDurabilityMod.DurabilityBehavior" }
+    ]
+}

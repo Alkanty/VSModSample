@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "stonedurabilitymod",
+    "name": "StoneDurabilityMod",
+    "authors": [
+        "Alkanty"
+    ],
+    "description": "Premier essai",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
