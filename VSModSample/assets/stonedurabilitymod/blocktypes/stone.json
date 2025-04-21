@@ -14,8 +14,6 @@
                 "maxDurability": 100
             }
         }
-    ],
-    "blockentitybehaviors": [e
-        { "name": "StoneDurabilityMod.DurabilityBehavior" }
     ]
+
 }

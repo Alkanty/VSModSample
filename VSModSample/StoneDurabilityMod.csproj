@@ -69,6 +69,7 @@
 
 <ItemGroup>
   <Folder Include="assets\stonedurabilitymod\shapes\" />
+  <Folder Include="Code\Blocks\" />
 </ItemGroup>
 
 </Project>

@@ -1,9 +1,9 @@
 ﻿using Vintagestory.API.Common;
 
-namespace StoneDurabilityMod.Blocks
+namespace StoneDurabilityMod.Code.BlockEntities.StoneBlockEntities
 {
     // Entité de bloc personnalisée qui peut accueillir des behaviors
-    public class StoneBlock : BlockEntity
+    public class StoneBlockEntity : BlockEntity
     {
         public override void Initialize(ICoreAPI api)
         {
