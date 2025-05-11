@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoneDurabilityMod", "VSModSample\StoneDurabilityMod.csproj", "{17C0486C-ECAA-46BE-9CB1-2926CCCAF3FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stonedurabilitymod", "VSModSample\stonedurabilitymod.csproj", "{17C0486C-ECAA-46BE-9CB1-2926CCCAF3FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{B36CBED5-C4C5-47F7-BF2A-2CFDD4BD4ECB}"
 EndProject

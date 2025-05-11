@@ -9,7 +9,7 @@
   <ItemGroup>
     <Compile Remove="Class1.cs" />
     <Compile Remove="Class2.cs" />
-    <Compile Remove="Code\Class1.cs" />
+    <Compile Remove="src\Class1.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -69,7 +69,6 @@
 
 <ItemGroup>
   <Folder Include="assets\stonedurabilitymod\shapes\" />
-  <Folder Include="Code\Blocks\" />
 </ItemGroup>
 
 </Project>
