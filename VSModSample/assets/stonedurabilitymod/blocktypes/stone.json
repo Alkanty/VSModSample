@@ -1,13 +1,7 @@
 {
-    "code": "stonedurabilitymod:stone",
-    "textures": {
-        "all": { "base": "block/granite1" }
-    },
-    "blockentity": {
-        "class": "stonedurability",
-        "durability": 100
-    },
-    "creativeinventory": {
-        "general": [ "*" ]
-    }
+    "code": "stone",
+    "class": "stonedurabilitymod:SDBlock",
+    "entityclass": "stonedurabilitymod:SDBlockEntity",
+    "textures": {"all": { "base": "block/granite1" }},
+    "creativeinventory": {"general": [ "*" ]}
 }

@@ -8,7 +8,7 @@ using Vintagestory.Common;
 using Vintagestory.GameContent;
 
 
-namespace stonedurabilitymod.src.blocks
+namespace stonedurabilitymod.src.block
 {
     public class SDBlock : Block
     {
