@@ -10,6 +10,7 @@ using System.ComponentModel.DataAnnotations;
 using static Vintagestory.Server.Timer;
 using Vintagestory.API.Datastructures;
 using System.Net.Http.Headers;
+using Vintagestory.API.Server;
 
 
 
@@ -30,6 +31,9 @@ namespace stonedurabilitymod.src.blockentity
             if (api.Side == EnumAppSide.Server)         //make sure its on server side only, it creates a ticklistener
             {
                 RegisterGameTickListener(DurabilityTime, 5000);
+
+                if (!(Api as ICoreServerAPI).World.IsFullyLoadedChunk(Pos)) return;
+
             }
         }
 
